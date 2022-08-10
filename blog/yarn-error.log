@@ -1,0 +1,34 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ez220404\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add –dev eslint
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\jdk_11\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Bandizip\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\ez220404\anaconda3;C:\Users\ez220404\anaconda3\Library\mingw-w64\bin;C:\Users\ez220404\anaconda3\Library\usr\bin;C:\Users\ez220404\anaconda3\Library\bin;C:\Users\ez220404\anaconda3\Scripts;C:\Users\ez220404\AppData\Local\Microsoft\WindowsApps;C:\Users\ez220404\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ez220404\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  TypeError [ERR_UNESCAPED_CHARACTERS]: https://registry.yarnpkg.com/–dev: Request path contains unescaped characters
+      at new NodeError (node:internal/errors:372:5)
+      at new ClientRequest (node:_http_client:160:13)
+      at Object.request (node:https:353:10)
+      at Request.module.exports.Request.start (C:\Users\ez220404\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141452:32)
+      at Request.module.exports.Request.end (C:\Users\ez220404\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:142211:10)
+      at end (C:\Users\ez220404\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141265:14)
+      at Immediate.<anonymous> (C:\Users\ez220404\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141279:7)
+      at processImmediate (node:internal/timers:466:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
